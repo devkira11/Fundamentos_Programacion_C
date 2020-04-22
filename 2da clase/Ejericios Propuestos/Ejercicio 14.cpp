@@ -9,23 +9,24 @@ int main() {
 // D.Entrada 
    //Declaracion
    
-   double  vi,a,t , resultado;
+   double vi,a,t , resultado;
    double vfinal,distancia;
    
    //Lectura
-   printf("Usurio ingreseme los datos( vi, a, t )");
-   scanf("%lf %lf %lf",&vi,&a,&t);
+   printf("Usurio ingreseme los datos  a, t )");
+   scanf("%lf %lf",&a,&t);
    
 // Procesamiento 
+   
+   vi= 0; //Asignar 
    
    vfinal= vi+(a*t);
    
    distancia= (vi*t)+(a*pow(t,2)/2.0);
    
 // D.Salida
-   printf("El valor de la distancia es %lf",distancia);
-   printf("El valor del vfinal es %lf",vfinal);
-   
+   printf("\tEl valor de la distancia es %.3f",distancia);
+   printf("\n\tEl valor del vfinal es %.2f",vfinal);
    
  return 0;
 }
