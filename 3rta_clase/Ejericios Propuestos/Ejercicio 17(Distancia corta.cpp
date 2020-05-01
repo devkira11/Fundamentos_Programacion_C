@@ -11,7 +11,9 @@ int main() {
    printf("Usurio ingreseme los puntos( x1 , y1 , x2 , y2, x3 , y3 , x , y )");
    scanf("%d %d %d %d %d %d %d %d",&x1,&y1,&x2,&y2,&x3,&y3,&x,&y);
 // Procesamiento ;
-   punto1 = (x-x1);
+   punto1 = (x-x1); 
+   
+   
    punto2 = (y-y1);
    punto3 = (x-x2);
    punto4 = (y-y2);
