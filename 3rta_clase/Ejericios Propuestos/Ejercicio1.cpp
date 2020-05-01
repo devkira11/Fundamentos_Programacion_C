@@ -8,11 +8,12 @@ int main() {
 
 // D.Entrada 
    //Declaracion
-   double a,b,c , resultado;
-   double discriminante,x1,x2, discrimante;
+
+   double a,b,c, resultado;
    //Lectura
    printf("Usurio ingreseme las coeficientes de la ecuacion( A , B , C)");
    scanf("%lf %lf %lf",&a,&b,&c);
+   double discriminante,x1,x2, discrimante;
    
 // Procesamiento 
 
@@ -24,7 +25,9 @@ int main() {
   	   printf("El valor de x2 es %lf",x2);   
    } else {
    	   printf("La discrimante es negativa");
-   }
+   }  
+   
+    
    
    
  return 0;
