@@ -5,23 +5,22 @@
 int main() {
 // D.Entrada 
    //Declaracion
-   int a ;
+   double a ;
    double valor_absoluto;
    //Lectura
    printf("Usurio ingreseme el numero ( a )");
-   scanf("%d", &a);
+   scanf("%lf", &a);
 // Procesamiento ;
    valor_absoluto=a;
  // D.Salida
-   
+
    	if(a<0){
-      valor_absoluto=a*-1;}
-      else{ if(a>=0){
-      valor_absoluto=a;
-	  }
-	  }
+      valor_absoluto=a*-1;
+	}else { 
+		valor_absoluto=a;
+	}
   
-  printf("El valor_absoluto es %lf", valor_absoluto);
+  printf("El valor_absoluto es %.0f", valor_absoluto);
 
  return 0;
 }
