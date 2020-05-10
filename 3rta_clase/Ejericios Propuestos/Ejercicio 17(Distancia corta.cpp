@@ -40,6 +40,10 @@ int main() {
 			dmin=distanciaC;
 		}
    }
+   
+   
+   
+   
   printf("La dmin de los tres puntos es %lf", dmin);
  
    
